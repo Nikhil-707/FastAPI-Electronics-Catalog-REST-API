@@ -1,4 +1,3 @@
-Sure! Here is the reformatted README file without the virtual environment creation part:
 
 ```markdown
 # FastAPI Application 🚀
