@@ -1,0 +1,44 @@
+{
+    "products": [
+    {
+    "name": "Pong",
+    "category": "Games",
+    
+    "sku": "A0001",
+    "price": 69.99,
+    "quantity": 20
+    },
+    {
+    "name": "GameStation 5",
+    "category": "Games",
+    "sku": "A0002",
+    "price": 269.99,
+    "quantity": 15
+    },
+    {
+    "name": "AP Oman PC - Aluminum",
+    "category": "Computers",
+    "sku": "A0003",
+    "price": 1399.99,
+    "quantity": 10
+    },
+    {
+    "name": "Fony UHD HDR 55\" 4k TV",
+    "category": "TVs and Accessories",
+    "sku": "A0004",
+    "price": 1399.99,
+    "quantity": 5
+    }
+    ],
+    "users": [
+    {
+    "name": "Bobby Fischer",
+    "email": "bobby@foo.com"
+    },
+    {
+    
+    "name": "Betty Rubble",
+    "email": "betty@foo.com"
+    }
+    ]
+    }
