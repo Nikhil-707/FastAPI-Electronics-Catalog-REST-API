@@ -1,16 +1,48 @@
 
 ```markdown
-# FastAPI Application 🚀
+# FastAPI Electronics Catalog API 📚
 
-Welcome to the FastAPI application! This project provides a robust foundation for building a modern web application with FastAPI, including database interaction, authentication, and testing.
+Welcome to the Electronics Catalog API! This project is a simple REST API for managing an electronics store's inventory, built with Python's FastAPI framework. It includes functionalities for listing, retrieving, creating, updating, and deleting products, with JWT authentication for secure operations.
 
 ## 📑 Table of Contents
+- [Introduction](#introduction)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
+- [Seeding the Database](#seeding-the-database)
 - [Running Tests](#running-tests)
 - [Docker Setup](#docker-setup)
 - [Contact](#contact)
+
+## 💡 Introduction
+
+Your local electronics store has started to expand, but track their entire inventory by hand. They have asked you to build a simple cataloging system as a REST API so that they can integrate with mobile and desktop applications in the future.
+
+### Requirements
+The API should be able to:
+- List all products
+- List all categories
+- Retrieve a single product
+- Create a product
+- Update a product
+- Delete a product
+
+### Authentication
+- Only authenticated users can create, update, or delete a product.
+- No authentication is required to retrieve or list products and categories.
+
+### Data
+All entities should have timestamp fields (created_at, and modified_at).
+
+#### Products
+- Name
+- Category
+- SKU
+- Price
+- Quantity
+
+#### Categories
+- Name
 
 ## 🏗️ Project Structure
 
