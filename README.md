@@ -116,7 +116,7 @@ python -m pytest test_products.py
 
 1. Build the Docker image:
    ```bash
-   docker build -t fastapi-app .
+   docker-compose build 
    ```
 
 2. Run the application using Docker Compose:
